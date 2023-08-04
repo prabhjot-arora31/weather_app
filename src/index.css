@@ -12,6 +12,7 @@ body {
   margin-right: auto;
   border-radius: 20px;
   /* height: 90vh; */
+  /* width: px; */
   padding: 25px;
   background-color: white;
   width: 25rem;
@@ -19,16 +20,19 @@ body {
 @media (max-width: 488px) {
   .main {
     padding: 20px;
+    width: 23rem;
   }
 }
 @media (max-width: 466px) {
   .main {
     padding: 15px;
+    width: 20rem;
   }
 }
 @media (max-width: 450px) {
   .main {
     padding: 10px;
+    width: 18rem;
   }
 }
 input {
