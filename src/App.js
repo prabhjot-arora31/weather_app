@@ -28,7 +28,7 @@ function App() {
           Source: Openweathermap.org
         </h3>
         <h5 style={{ textAlign: "center", color: "black" }}>
-          Developer: PRABHJOT ARORA
+          Developer: PRABHJOT SINGH ARORA
         </h5>
         <div className="search">
           <input
