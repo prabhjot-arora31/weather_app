@@ -58,7 +58,7 @@ function App() {
             </div>
             <div className="info">
               <h3>Location: {data.name}</h3>
-              <h3>Temperature: {data.main.temp}%c</h3>
+              <h3>Temperature: {data.main.temp}&deg;C</h3>
               <h3>Atmospheric Pressure: {data.main.pressure}</h3>
               <h3>Humidity: {data.main.humidity}</h3>
               <h3>Wind speed: {data.wind.speed}</h3>
