@@ -7,6 +7,17 @@ function App() {
   const [data, setData] = useState("");
   const [city, setCity] = useState("");
   const [error, setError] = useState(false);
+  useEffect(()=>{
+    async function abc()
+      {
+       await Axios.get('https://api.openweathermap.org/data/2.5/weather?q=california&units=metric&appid=ca6176c23e01d00cb944f5f4ac19f723').
+          then((res)=>{
+            setData(res.data);
+          })
+      }
+
+    abc();
+  },[]);
   const search = () => {
     Axios.get(
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=ca6176c23e01d00cb944f5f4ac19f723`
